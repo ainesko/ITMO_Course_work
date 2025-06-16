@@ -7,7 +7,7 @@ K.Mardanova¹, M.Artomov²
 
 ## MuSiCal installation
 
-'''
+```bash
 git clone https://github.com/parklab/MuSiCal
 
 source ~/miniconda3/bin/activate root
@@ -16,4 +16,4 @@ conda install numpy scipy scikit-learn matplotlib pandas seaborn
 
 cd  /Path/To/MuSiCal
 pip install ./MuSiCal
-'''
+```
