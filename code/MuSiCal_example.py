@@ -54,12 +54,10 @@ model.validate_grid(validate_n_replicates=1, # Number of simulation replicates t
                     grid_selection_method='pvalue', # Method for selecting the best grid point
                     grid_selection_pvalue_thresh=0.05 # Threshold used for selecting the best grid point
                    )
-
+#Results
 print(model.best_grid_point)
 print(model.thresh_match)
 print(model.thresh_refit)
-
-#Results
 W_s = model.W_s
 H_s = model.H_s
 print(W_s.columns.tolist())
