@@ -5,7 +5,7 @@ K.Mardanova¹, M.Artomov²
 2. Institute for Genomic Medicine Nationwide Children’s Hospital
 ## Project description
 
-Comparative evaluation of DualSimplex, SigProfiler, and MuSiCal for de novo signature extraction and exposure estimation.
+Comparative evaluation of DualSimplex, SigProfiler, and MuSiCal for de novo mutational signature extraction and exposure estimation.
 
 
 ## MuSiCal installation
