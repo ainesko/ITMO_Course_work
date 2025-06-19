@@ -32,6 +32,10 @@ conda activate sigprofiler
 
 # Install SigProfilerExtractor and dependencies
 pip install SigProfilerExtractor
+
+# Install Reference Genome
+from SigProfilerMatrixGenerator import install as gen_install
+gen_install.install('GRCh38') 
 ```
 
 The DualSimplex framework was developed by Kleverov et al. (2023) at Washington University School of Medicine and ITMO University. This study applies the published components of their non-negative matrix factorization approach for mutational signature analysis. Certain algorithmic enhancements remain unpublished at this time; all analyses were performed in accordance with the authors' documented methodology.
