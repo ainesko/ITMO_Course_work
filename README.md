@@ -20,3 +20,13 @@ conda install numpy scipy scikit-learn matplotlib pandas seaborn
 cd  /Path/To/MuSiCal
 pip install ./MuSiCal
 ```
+
+## SigProfilerExtractor installation
+```bash
+# Create a clean conda environment (recommended)
+conda create -n sigprofiler python=3.9
+conda activate sigprofiler
+
+# Install SigProfilerExtractor and dependencies
+pip install SigProfilerExtractor
+```
