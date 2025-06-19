@@ -11,12 +11,15 @@ Comparative evaluation of DualSimplex, SigProfiler, and MuSiCal for de novo sign
 ## MuSiCal installation
 
 ```bash
+# Clone github repository
 git clone https://github.com/parklab/MuSiCal
 
+# Create a clean conda environment (recommended)
 source ~/miniconda3/bin/activate root
 conda create -n python37_musical python=3.7
 conda install numpy scipy scikit-learn matplotlib pandas seaborn
 
+# Install MuSiCal and dependencies
 cd  /Path/To/MuSiCal
 pip install ./MuSiCal
 ```
